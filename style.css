@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* .container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 9px;
+  padding-right: 5px;
+  width: 100%;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+} */
+
+/* img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+} */
+
+/* ======== Header ============= */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid tomato;
+  background: url(img/desk-header.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 9px;
+  padding-right: 7px;
+}
+
+.menu {
+  font-family: Montserrat;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+
+.header_menu {
+  margin-top: 30px;
+  margin-bottom: 123px;
+}
+
+.menu_text {
+  font-size: 14px;
+  color: #fff;
+  margin-right: 9px;
+  box-sizing: border-box;
+  width: 92px;
+  height: 40px;
+  position: relative;
+
+}
+
+.menu_text:focus {
+  position: relative;
+  background: rgba(26, 25, 21, 0.0001);
+  border: 2px solid #FFFFFF;
+  border-radius: 17px;
+  padding: 6.5px 17px;
+  box-sizing: border-box;
+}
+
+
+.menu_text:nth-child(2) {
+  margin: 0;
+}
+
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #fff;
+
+}
+
+.header_title {
+  line-height: 37px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.little_title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.button {
+  background-color: #FF4E50;
+  border: 0px;
+  padding: 13px 21px;
+  border-radius: 30px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 17px;
+  margin-bottom: 136px;
+  color: #fff;
+}
+
+/* ================ main ===================== */
