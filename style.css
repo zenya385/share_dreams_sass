@@ -253,31 +253,77 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .container {}
+  .container {
+    padding-left: 147px;
+    padding-right: 151px;
+  }
 
-  .menu {}
+  .menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 36px;
+    width: 670px;
+    height: 40px;
+    margin-bottom: 126px;
+  }
 
-  .header_menu {}
+  .header_menu {
+    margin: 0;
+  }
 
-  .logo {}
+  .logo {
+    font-size: 20px;
+    line-height: 24px;
+  }
 
-  .title {}
+  .title {
+    display: inline-block;
+    font-size: 52px;
+    line-height: 63px;
+    width: 507px;
+  }
 
-  .little_title {}
+  .little_title {
+    font-size: 25px;
+    line-height: 28px;
+  }
 
-  .partner-list {}
+  .partner-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
-  .partner-item {}
+  .partner-item {
+    flex-basis: 33.33%;
+    width: 230px;
+  }
 
-  .bg-svg {}
+
 }
 
 @media screen and (min-width: 1440px) {
-  .container {}
+  .container {
+    padding-left: 263px;
+    padding-right: 263px;
+  }
 
-  .menu {}
+  .menu {
+    width: 94px;
+  }
 
   .partner-list {}
 
-  .partner-item {}
+  .partner-item {
+    width: 228px;
+    height: auto;
+    flex-basis: auto;
+  }
+
+  .bg-svg {
+    right: 36%;
+  }
 }
